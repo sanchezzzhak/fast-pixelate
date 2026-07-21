@@ -1,0 +1,39 @@
+{
+  "name": "fast-pixelate",
+  "version": "1.0.0",
+  "main": "./fast-pixelate.js",
+  "types": "./fast-pixelate.d.ts",
+  "module": "./fast-pixelate.mjs",
+  "exports": {
+    ".": {
+      "types": "./fast-pixelate.d.ts",
+      "import": "./fast-pixelate.mjs",
+      "require": "./fast-pixelate.js"
+    }
+  },
+  "keywords": [
+    "pixelate",
+    "sharp-pixelate",
+    "pixelate box",
+    "pixelate blur",
+    "fast-pixelate",
+    "napi-rs",
+    "rust",
+    "zero-copy"
+  ],
+  "napi": {
+    "binaryName": "fast-pixelate",
+    "targets": [
+      "x86_64-unknown-linux-gnu",
+      "x86_64-pc-windows-msvc"
+    ]
+  },
+  "scripts": {
+    "build": "napi build --platform --release",
+    "install": "node scripts/install-strategy.js"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^3.7.1",
+    "@napi-rs/wasm-runtime": "^1.1.5"
+  }
+}
