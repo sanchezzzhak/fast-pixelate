@@ -35,5 +35,14 @@
   "devDependencies": {
     "@napi-rs/cli": "^3.7.1",
     "@napi-rs/wasm-runtime": "^1.1.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchezzzhak/fast-pixelate.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanchezzzhak/fast-pixelate/issues"
+  },
+  "homepage": "https://github.com/sanchezzzhak/fast-pixelate#readme"
 }
