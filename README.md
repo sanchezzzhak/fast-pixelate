@@ -1,5 +1,7 @@
 # fast-pixelate 🚀
 
+![img.png](docs%2Fimg.png)
+
 - High-performance image pixelation and censoring library for Node.js written in Rust. Blazing fast, asynchronous-friendly, and lightweight.
 
 - Optimized specifically for **privacy compliance, automated data redaction, and real-time image masking** pipelines (e.g., blurring or pixelating faces, credit cards, license plates, or sensitive documents). It performs bounding-box calculation, percentage-based padding adjustments, and pixel-grid rendering directly on raw buffers with native CPU acceleration.
